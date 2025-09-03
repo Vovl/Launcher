@@ -246,6 +246,16 @@ class AllAppsFragment(
                 showNoResultsPlaceholderIfNeeded()
             }
         }
+        binding.searchBar.binding.topToolbarSearch.setOnEditorActionListener { v, actionId, event ->
+            if (actionId == 6) {
+                binding.allAppsGrid.post {
+                    binding.allAppsGrid.findViewHolderForAdapterPosition(0)?.itemView?.performClick()
+                }
+                true
+            } else {
+                false
+            }
+        }
     }
 
     private fun showNoResultsPlaceholderIfNeeded() {
@@ -283,7 +293,6 @@ class AllAppsFragment(
     fun onBackPressed(): Boolean {
         if (binding.searchBar.isSearchOpen) {
             binding.searchBar.closeSearch()
-            return true
         }
 
         return false
