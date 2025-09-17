@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2025-09-12
+### Changed
+- Pressing home button on home screen now returns to the first page ([#170])
+- Updated translations
+
 ## [1.3.0] - 2025-09-01
 ### Changed
 - The app will now prompt to set as default launcher on startup ([#230])
@@ -75,11 +80,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#74]: https://github.com/FossifyOrg/Launcher/issues/74
 [#106]: https://github.com/FossifyOrg/Launcher/issues/106
 [#115]: https://github.com/FossifyOrg/Launcher/issues/115
+[#170]: https://github.com/FossifyOrg/Launcher/issues/170
 [#182]: https://github.com/FossifyOrg/Launcher/issues/182
 [#230]: https://github.com/FossifyOrg/Launcher/issues/230
 [#234]: https://github.com/FossifyOrg/Launcher/issues/234
 
-[Unreleased]: https://github.com/FossifyOrg/Launcher/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/FossifyOrg/Launcher/compare/1.4.0...HEAD
+[1.4.0]: https://github.com/FossifyOrg/Launcher/compare/1.3.0...1.4.0
 [1.3.0]: https://github.com/FossifyOrg/Launcher/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/FossifyOrg/Launcher/compare/1.1.4...1.2.0
 [1.1.4]: https://github.com/FossifyOrg/Launcher/compare/1.1.3...1.1.4

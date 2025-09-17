@@ -1,13 +1,13 @@
 [versions]
 #jetbrains
-kotlin = "2.2.10"
+kotlin = "2.2.20"
 #KSP
-ksp = "2.2.10-2.0.2"
+ksp = "2.2.20-2.0.3"
 #Detekt
 detekt = "1.23.8"
 detektCompose = "0.4.27"
 #Room
-room = "2.7.2"
+room = "2.8.0"
 #Fossify
 commons = "5.0.2"
 #Gradle
