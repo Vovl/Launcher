@@ -549,7 +549,6 @@ class MainActivity : SimpleActivity(), FlingListener {
         IconCache.launchers.map { it.packageName }.forEach { packageName ->
             if (!launchers.map { it.packageName }.contains(packageName)) {
                 launchersDB.deleteApp(packageName)
-                homeScreenGridItemsDB.deleteByPackageName(packageName)
             }
         }
 
